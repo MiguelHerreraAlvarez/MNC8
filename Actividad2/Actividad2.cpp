@@ -5,8 +5,8 @@ void execute() {
 	double op1 = 7.0;
 	for (double i = 1.0; i < 1e9; i++)
 	{
-		double xd = i * 1.000001;
-		op1 *= xd;
+		double aux = i * 1.000001;
+		op1 *= aux;
 	}
 }
 
